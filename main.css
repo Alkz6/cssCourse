@@ -1,9 +1,18 @@
+* {
+ box-sizing: border-box;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 #product-overview {
     background: #ff1b68;
+    width: 100%;
+    height: 528px;
+    padding: 10px;
+   
 }
 
 .section-title {
@@ -18,3 +27,16 @@ body {
 /* h1 {
     font-family: sans-serif;
 } */
+
+.main-header {
+    background: #2ddf5c;
+    width: 100%;
+    text-align: right;
+    padding: 8px 16px;
+}
+
+.main-nav__item {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+}
