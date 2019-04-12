@@ -31,12 +31,48 @@ body {
 .main-header {
     background: #2ddf5c;
     width: 100%;
-    text-align: right;
     padding: 8px 16px;
+}
+
+.main-logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand {
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 74px);
+    vertical-align: middle;
+}
+
+.main-nav__items {
+    margin: 0;
+    padding: 0;
 }
 
 .main-nav__item {
     display: inline-block;
+    margin-left: 15px;
+}
+
+.main-nav__item a {
+    color: #0e4f1f;
     text-decoration: none;
     list-style: none;
+}
+
+.main-nav__item a:hover {
+    color: white;
+}
+
+.main-nav__item a:active {
+    color: white;
 }
